@@ -1,0 +1,39 @@
+# Xcode user data
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Build artifacts
+.build/
+DerivedData/
+build/
+*.xcarchive
+
+# SwiftPM caches
+.swiftpm/xcode/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS
+*.dSYM/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# CocoaPods (if used)
+Pods/
+Podfile.lock
+
+# Certificates & Provisioning
+*.p12
+*.cer
+*.mobileprovision
+
+# Dependencies (if using SPM)
+.build/
+*.resolved

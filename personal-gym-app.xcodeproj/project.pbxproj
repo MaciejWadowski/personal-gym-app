@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		F42AD19F2F7921480036E740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F494F18F2F71A8C700A0C8B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F494F1962F71A8C700A0C8B6;
+			remoteInfo = "personal-gym-app";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F42AD19B2F7921480036E740 /* personal-gym-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "personal-gym-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F494F1972F71A8C700A0C8B6 /* personal-gym-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "personal-gym-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		F42AD19C2F7921480036E740 /* personal-gym-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "personal-gym-appTests";
+			sourceTree = "<group>";
+		};
 		F494F1992F71A8C700A0C8B6 /* personal-gym-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "personal-gym-app";
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F42AD1982F7921480036E740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F494F1942F71A8C700A0C8B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				F494F1992F71A8C700A0C8B6 /* personal-gym-app */,
+				F42AD19C2F7921480036E740 /* personal-gym-appTests */,
 				F494F1982F71A8C700A0C8B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				F494F1972F71A8C700A0C8B6 /* personal-gym-app.app */,
+				F42AD19B2F7921480036E740 /* personal-gym-appTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F42AD19A2F7921480036E740 /* personal-gym-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42AD1A32F7921480036E740 /* Build configuration list for PBXNativeTarget "personal-gym-appTests" */;
+			buildPhases = (
+				F42AD1972F7921480036E740 /* Sources */,
+				F42AD1982F7921480036E740 /* Frameworks */,
+				F42AD1992F7921480036E740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42AD1A02F7921480036E740 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F42AD19C2F7921480036E740 /* personal-gym-appTests */,
+			);
+			name = "personal-gym-appTests";
+			packageProductDependencies = (
+			);
+			productName = "personal-gym-appTests";
+			productReference = F42AD19B2F7921480036E740 /* personal-gym-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F494F1962F71A8C700A0C8B6 /* personal-gym-app */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F494F1A22F71A8C900A0C8B6 /* Build configuration list for PBXNativeTarget "personal-gym-app" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
+					F42AD19A2F7921480036E740 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = F494F1962F71A8C700A0C8B6;
+					};
 					F494F1962F71A8C700A0C8B6 = {
 						CreatedOnToolsVersion = 26.3;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				F494F1962F71A8C700A0C8B6 /* personal-gym-app */,
+				F42AD19A2F7921480036E740 /* personal-gym-appTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F42AD1992F7921480036E740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F494F1952F71A8C700A0C8B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F42AD1972F7921480036E740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F494F1932F71A8C700A0C8B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,60 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F42AD1A02F7921480036E740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F494F1962F71A8C700A0C8B6 /* personal-gym-app */;
+			targetProxy = F42AD19F2F7921480036E740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		F42AD1A12F7921480036E740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.personal-gym-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/personal-gym-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/personal-gym-app";
+			};
+			name = Debug;
+		};
+		F42AD1A22F7921480036E740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.personal-gym-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/personal-gym-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/personal-gym-app";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F494F1A02F71A8C900A0C8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -270,13 +390,14 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -312,13 +433,14 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -326,6 +448,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F42AD1A32F7921480036E740 /* Build configuration list for PBXNativeTarget "personal-gym-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42AD1A12F7921480036E740 /* Debug */,
+				F42AD1A22F7921480036E740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F494F1922F71A8C700A0C8B6 /* Build configuration list for PBXProject "personal-gym-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
